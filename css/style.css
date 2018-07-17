@@ -1,0 +1,22 @@
+.bg-black{
+    background: #000;
+    color: #fff;
+    font-size: 25px;
+    
+}
+.port-item{
+    width: 30%;
+}
+
+.port-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+@media(min-width:1199px){
+    .port-item{
+        padding: 3em; !important
+    }
+}
+.port-item .fa{
+    font-size: 2em
+}
